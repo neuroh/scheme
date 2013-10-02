@@ -1,0 +1,70 @@
+body, pre, #input { font-family: Courier, "Courier New", monospace, serif; }
+
+body { font-size: 12px; }
+
+h1 { font-weight: strong; font-size: 12px; margin-bottom: 5px; }
+
+sub { font-size: 10; }
+
+pre {
+    display: inline;
+    font-size: 12px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover { background: #def4f7; }
+
+:focus { outline: 0; }
+
+.value { color: #00FF33; }
+
+.error { color: red; }
+
+.warning { color: #cca45e; }
+
+.continue { color: #7b7b7b; }
+
+.title { color: navy; }
+
+.intro p {
+    margin: 5px 0 5px 0;
+    font-size: 12px;
+}
+
+#input {
+    border: 0;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+#prefix { float:left; }
+
+
+.block {
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+.syntax {
+    color: #4f4f4f;
+    font-size: 12px;
+}
+
+.builtinList ul {
+    float: left;
+    margin: 5px 5px 5px 10px;
+    padding-left: 15px;
+}
+
+.flot {
+    width: 35em;
+    height: 300px;
+}
+
